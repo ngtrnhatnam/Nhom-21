@@ -3,33 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giới Thiệu Bản Thân</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Trang chính</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Blog Cá Nhân</h1>
+        <h1>Chào mừng bạn đến với nhóm 21</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="loadPage('nhatnam.html')">Nhật Nam</a></li>
+                <li><a href="#" onclick="loadPage('minhtay.html')">Minh Tây</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="profile">
-        <img src="images/avatar.jpeg" alt="Ảnh đại diện" class="avatar">
-        <h1>Xin chào, tôi là Nguyễn Trần Nhật Nam</h1><br>
-        <p> 
-            Ngày sinh: 13/11/2003 <br><br>
-            MSSV: 2180608712      <br><br>
-            Khóa: 2021 - 2025     <br><br>
-        </p>
-    </div>
-    
-    <div class="contact">
-        <h2>Liên hệ</h2>
-        <p>Email: nhatnam.ngtr@gmail.com</p>
-        <p>Facebook: <a href="https://facebook.com/little.le.ttramm" target="_blank">facebook.com/little.le.ttramm</a></p>
-        <p>GitHub: <a href="https://github.com/ngtrnhatnam" target="_blank">github.com/ngtrnhatnam</a></p>
-    </div>
+    <main id="content">
+        <h2>Chào mừng bạn!</h2>
+        <p>Nhấn vào menu để xem nội dung.</p>
+    </main>
 
-    <footer>
-        <p>Blog Cá Nhân</p>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

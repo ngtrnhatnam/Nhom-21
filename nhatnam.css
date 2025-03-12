@@ -1,11 +1,3 @@
-/* Reset mặc định */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 /* Căn giữa nội dung */
 body {
     background-color: #f4f4f4;
@@ -19,10 +11,9 @@ body {
 header {
     background: #0ff0a9;
     color: white;
-    padding: 20px;
     width: 100%;
+    padding: 15px;
     text-align: center;
-    font-size: 24px;
 }
 
 /* Container chính */
